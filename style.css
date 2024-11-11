@@ -6,10 +6,11 @@ body{
 .nombre{
     color: yellow;
     font-family: 'Impact', sans-serif;
-    font-size: 80px;
-    position: absolute;
+    font-size: 7rem;
+    position: relative;
     margin: 20px;
     top: 0px;
+    left: 15%;
     transform: skewY(-25deg);
     transform: skewX(25deg);
     -webkit-text-stroke: 0.1px black;
@@ -17,29 +18,32 @@ body{
 
 #cabeza{
     display:flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 #logo{
     position: relative;
-    width: 150px;
-    height: 100px;
+    width: 10rem;
+    height: 7rem;
     left: 0px;
     margin: 20px;
 }
 
 #logoimg{
     position: absolute;
-    width: 150px;
-    height: 100px;
+    width: 10rem;
+    height: 7rem;
     top: 0px;
     left: 0px;
 }
 
 #inicio{
-    position: absolute;
+    position: relative;
     height: 600px;
     width: 100%;
     top: 0px;
+}
+
+#startImg{
+    width: 0%;
 }
