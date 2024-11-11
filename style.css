@@ -1,0 +1,45 @@
+body{
+    background-color: #f12b2f;
+    background-image: radial-gradient(circle, #f12b2f 0%, #eff45a 100%);
+}
+
+.nombre{
+    color: yellow;
+    font-family: 'Impact', sans-serif;
+    font-size: 80px;
+    position: absolute;
+    margin: 20px;
+    top: 0px;
+    transform: skewY(-25deg);
+    transform: skewX(25deg);
+    -webkit-text-stroke: 0.1px black;
+}
+
+#cabeza{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    position: relative;
+    width: 150px;
+    height: 100px;
+    left: 0px;
+    margin: 20px;
+}
+
+#logoimg{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+}
+
+#inicio{
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    top: 0px;
+}
