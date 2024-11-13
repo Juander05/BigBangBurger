@@ -24,7 +24,7 @@ header{
     width: 250px;
     height: 200px;
     display: inline-block;
-    left: 100px;
+    left: 60px;
     border-radius: 15%;
     justify-content: center;
     align-items: center;
@@ -49,7 +49,7 @@ header{
 }
 
 .fuente{
-    color: yellow;
+    color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.5rem;
     letter-spacing: 2px;
@@ -96,9 +96,9 @@ header{
 
 #descripcion{
     background: orange;
-    width: 1000px;
+    width: 90%;
     position: relative;
-    left: 300px;
+    left: 50px;
     margin: 20px;
     padding: 20px;
     align-items: center;
@@ -112,10 +112,36 @@ header{
     background-position-x: 45%;
 }
 
+#promocion{
+    position: relative;
+    background-image: url(img/promo3.png);
+    background-size: cover;
+    background-position-x: -50%;
+    background-position-y: 50%;
+}
+
+#galeria{
+    position: relative;
+    background-image: url(img/gale.png);
+    background-size: cover;
+}
+
 #menutxt{
     position: relative;
     top: 180px;
     left: 80px;
+}
+
+#promotxt{
+    position: relative;
+    top: 180px;
+    left: 30px;
+}
+
+#galetxt{
+    position: relative;
+    top: 180px;
+    left: 70px;
 }
 
 @media(max-width: 600px){
