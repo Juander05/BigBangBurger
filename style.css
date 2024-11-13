@@ -16,10 +16,24 @@ header{
     align-items: center;
 }
 
+footer{
+    background: orange;
+    position: relative;
+    top: 10px;
+    left: -10px;
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+
 .boton{
     background: orange;
     position: relative;
     margin-left: 200px;
+    margin-bottom: 50px;
     padding: 0px;
     width: 250px;
     height: 200px;
@@ -112,7 +126,7 @@ header{
     background-position-x: 45%;
 }
 
-#promocion{
+#promo{
     position: relative;
     background-image: url(img/promo3.png);
     background-size: cover;
@@ -120,7 +134,7 @@ header{
     background-position-y: 50%;
 }
 
-#galeria{
+#gale{
     position: relative;
     background-image: url(img/gale.png);
     background-size: cover;
@@ -128,20 +142,38 @@ header{
 
 #menutxt{
     position: relative;
+    margin-bottom: 20px;
     top: 180px;
     left: 80px;
 }
 
 #promotxt{
     position: relative;
+    margin-bottom: 20px;
     top: 180px;
     left: 30px;
 }
 
 #galetxt{
     position: relative;
+    margin-bottom: 20px;
     top: 180px;
     left: 70px;
+}
+
+#galeria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagenes{
+    background: orange;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    width: 90%;
+    height: 1000px;
 }
 
 @media(max-width: 600px){
