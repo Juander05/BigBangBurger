@@ -1,0 +1,275 @@
+body{
+    background-color: #f12b2f;
+    background-image: radial-gradient(circle, #f12b2f 0%, #eff45a 100%);
+}
+
+header{
+    background: orange;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    background: orange;
+    position: relative;
+    top: 10px;
+    left: -10px;
+    width: 100%;
+    height: 160px;
+    padding: 20px;
+    margin: 0px;
+    align-items: center;
+}
+
+.nombre{
+    color: yellow;
+    font-family: 'Impact', sans-serif;
+    font-size: 4rem;
+    position: relative;
+    margin: 20px;
+    top: 0px;
+    left: 340px;
+    transform: skewY(-25deg);
+    transform: skewX(25deg);
+    letter-spacing: 4px;
+    text-shadow: 
+        3px 3px 0 red,
+       -3px 3px 0 red,
+        3px -3px 0 red,
+       -3px -3px 0 red;
+}
+
+.fuente{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-shadow: 
+        2px 2px 0 red,
+       -2px 2px 0 red,
+        2px -2px 0 red,
+       -2px -2px 0 red;
+}
+
+.texto{
+    color: white;
+    position: relative;
+    top: -15px;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    text-shadow: 
+        2px 2px 0 red,
+       -2px 2px 0 red,
+        2px -2px 0 red,
+       -2px -2px 0 red;
+}
+
+.recuadro{
+    background: orange;
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 550px;
+    left: 43px;
+    padding:9px;
+    border-radius: 0.5rem;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+.recuadro img{
+    position: relative;
+    top: 10px;
+    left: 30px;
+    width: 240px;
+    height: 250px;
+    margin-bottom: 20px;
+    border-radius: 0.5rem;
+}
+
+.recuadroMenu{
+    background: orange;
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 600px;
+    left: 43px;
+    padding:9px;
+    border-radius: 0.5rem;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+.recuadroMenu img{
+    position: relative;
+    top: 10px;
+    left: 30px;
+    width: 240px;
+    height: 250px;
+    margin-bottom: 20px;
+    border-radius: 0.5rem;
+}
+
+.precio{
+    position: relative;
+    top: 20px;
+}
+
+
+.titulo{
+    background: orange;
+    display: flex;
+    position: relative;
+    left: 125px;
+    width: 1160px;
+    height: 90px;
+    margin: 20px;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+
+.titulo h2{
+    font-size: 2rem;
+    margin: 20px;
+}
+
+.subtitulo{
+    background: orange;
+    display: flex;
+    position: relative;
+    left: 125px;
+    width: 1160px;
+    height: 50px;
+    margin: 20px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+
+.subtitulo h3{
+    font-size: 1.7rem;
+    margin: 20px;
+}
+
+#logo{
+    position: relative;
+    width: 150px;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#logoimg{
+    position: absolute;
+    width: 190px;
+    height: 140px;
+    top: -10px;
+    left: 0px;
+    padding: 10px;
+}
+
+#alumno{
+    position: relative;
+    top: -70px;
+    left: 1300px;
+}
+
+#promo{
+    position: relative;
+    left: 50px;
+    width: 90%;
+    height: 1600px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#desafio{
+    background: orange;
+    position: relative;
+    width: 1120px;
+    height: 810px;
+    left: 125px;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 40px;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+
+#desafiotxt{
+    position: relative;
+    font-size: 1.5rem;
+    top: -20px;
+    left: 35%;
+    margin: 20px;
+}
+
+#desafio img{
+    position: relative;
+    top: -20px;
+    left: 20%;
+    border-radius: 0.5rem;
+}
+
+#desc{
+    position: relative;
+    width: 1000px;
+    top: -20px;
+    left: 180px;
+}
+
+#desc img{
+    position: relative;
+    height: 250px;
+    top: -170px;
+    left: 740px;
+    transform: rotate(25deg);
+}
+
+#desc p{
+    font-size: 1.5rem;
+    width: 800px;
+}
+
+#premio{
+    color: yellow;
+    font-family: 'Impact', sans-serif;
+    font-size: 4rem;
+    position: relative;
+    margin: 20px;
+    top: -220px;
+    left: 770px;
+    transform: skewY(-25deg);
+    transform: skewX(25deg);
+    letter-spacing: 4px;
+    text-shadow: 
+        3px 3px 0 red,
+       -3px 3px 0 red,
+        3px -3px 0 red,
+       -3px -3px 0 red;
+}
+
+#menu{
+    position: relative;
+    left: 50px;
+    width: 90%;
+    height: 3000px;
+    padding: 20px;
+    margin: 20px;
+}
