@@ -256,7 +256,6 @@ footer{
     height: 1600px;
     padding: 20px;
     margin: 20px;
-    overflow: hidden;
 }
 
 #desafio{
@@ -332,4 +331,178 @@ footer{
     height: 3000px;
     padding: 20px;
     margin: 20px;
+}
+
+@media(max-width: 600px){
+    header{
+        height: 60px;
+        width: 100%;
+    }
+
+    footer{
+        height: 130px;
+    }
+
+    .nombre{
+        font-size: 2rem;
+        margin: 10px;
+        top: -5px;
+        left: 20px;
+        text-shadow: 
+        2px 2px 0 red,
+       -2px 2px 0 red,
+        2px -2px 0 red,
+       -2px -2px 0 red;
+    }
+
+    .fuente{
+        font-size: 1rem;
+    }
+
+    .texto{
+        font-size: 1rem;
+    }
+
+    .boton{
+        margin: 20px;
+        margin-left: 100px;
+        width: 200px;
+        height: 150px;
+        left: -15px;
+    }
+
+    .titulo{
+        left: -10px;
+        width: 110%;
+    }
+
+    .titulo h2{
+        font-size: 1.5rem;
+    }
+
+    .subtitulo{
+        left: -10px;
+        width: 110%;
+    }
+
+    .subtitulo h3{
+        font-size: 1.2rem;
+    }
+
+    .recuadro{
+        left: -5px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .recuadroMenu{
+        left: -5px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    #logo{
+        width: 100px;
+        height: 60px;
+        padding: 10px;
+        margin: 10px;
+        top: -10px;
+        left: -30px;
+    }
+
+    #logoimg{
+        width: 100px;
+        height: 60px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    #menutxt{
+        position: relative;
+        margin-bottom: 20px;
+        top: 140px;
+        left: 75px;
+    }
+    
+    #promotxt{
+        position: relative;
+        margin-bottom: 20px;
+        top: 140px;
+        left: 35px;
+    }
+    
+    #galetxt{
+        position: relative;
+        margin-bottom: 20px;
+        top: 140px;
+        left: 65px;
+    }
+
+    #promo{
+        position: relative;
+        left: -5px;
+        width: 70%;
+        margin-bottom: 0px;
+        height: 2770px;
+    }
+    
+    #desafio{
+        width: 90%;
+        height: 810px;
+        left: -2.5px;
+    }
+    
+    #desafiotxt{
+        position: relative;
+        width: 100%;
+        font-size: 1rem;
+        top: -20px;
+        left: -10px;
+    }
+    
+    #desafio img{
+        position: relative;
+        width: 90%;
+        top: -20px;
+        left: 12px;
+    }
+    
+    #desc{
+        position: relative;
+        width: 90%;
+        top: -20px;
+        left: 20px;
+    }
+    
+    #desc img{
+        position: relative;
+        height: 200px;
+        top: -10px;
+        left: 0px;
+        transform: rotate(0deg);
+    }
+    
+    #desc p{
+        font-size: 1rem;
+        width: 90%;
+    }
+    
+    #premio{
+        top: -50px;
+        left: 30px;
+    }
+
+    #menu{
+        position: relative;
+        left: -5px;
+        width: 70%;
+        height: 8000px;
+    }
+
+    #alumno{
+        display: none;
+        top: -45px;
+        left: 185px;
+    }
+
 }

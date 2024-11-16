@@ -251,10 +251,19 @@ footer{
 }
 
 @media(max-width: 600px){
+    header{
+        height: 60px;
+        width: 100%;
+    }
+
+    footer{
+        height: 130px;
+    }
+
     .nombre{
         font-size: 2rem;
         margin: 10px;
-        top: -20px;
+        top: -5px;
         left: 20px;
         text-shadow: 
         2px 2px 0 red,
@@ -263,8 +272,24 @@ footer{
        -2px -2px 0 red;
     }
 
-    header{
-        height: 60px;
+    .fuente{
+        font-size: 1rem;
+    }
+
+    .texto{
+        font-size: 1rem;
+    }
+
+    .boton{
+        margin: 20px;
+        margin-left: 90px;
+        width: 200px;
+        height: 150px;
+        left: -5px;
+    }
+
+    .galery{
+        left: 5px;
     }
 
     #logo{
@@ -272,7 +297,7 @@ footer{
         height: 60px;
         padding: 10px;
         margin: 10px;
-        top: -30px;
+        top: -10px;
         left: -30px;
     }
 
@@ -290,10 +315,41 @@ footer{
 
     #descripcion{
         width: 300px;
-        left: 0px;
+        left: -2px;
     }
 
-    #texto{
-        font-size: 1rem;
+    #menutxt{
+        position: relative;
+        margin-bottom: 20px;
+        top: 140px;
+        left: 75px;
+    }
+    
+    #promotxt{
+        position: relative;
+        margin-bottom: 20px;
+        top: 140px;
+        left: 35px;
+    }
+    
+    #galetxt{
+        position: relative;
+        margin-bottom: 20px;
+        top: 140px;
+        left: 65px;
+    }
+
+    #galetitulo{
+        position: relative;
+        width: 200px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        left: 35%;
+    }
+
+    #alumno{
+        display: none;
+        top: -45px;
+        left: 185px;
     }
 }
